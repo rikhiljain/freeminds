@@ -10,6 +10,18 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery
-//= require jquery_ujs
-//= require_tree .
+//= require jquery/jquery-1.8.3
+//= require jquery/jquery.validate
+//= require jquery/jquery-ui-1.9.2.custom
+//= require jquery/jquery.blockUI
+//= require dataTables/jquery.dataTables
+//= require dataTables/jquery.dataTables.bootstrap
+//= require bootstrap
+//= require dataTables/jquery.dataTables
+//= require lonelytype/cluster
+
+//= require welcome/welcome
+
+//= require json-to-table
+
+//= require_self

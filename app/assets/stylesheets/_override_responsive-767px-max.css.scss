@@ -1,0 +1,14 @@
+//
+// Responsive: Landscape phone to desktop/tablet
+// --------------------------------------------------
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+@media (max-width: 767px) {
+
+  .span9Pos{
+    margin-left: $gridColumnWidth * 9 + $gridGutterWidth * 8 + 50px;
+  }
+
+}

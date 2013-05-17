@@ -1,0 +1,14 @@
+//
+// Responsive: Large desktop and up
+// --------------------------------------------------
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+@media (min-width: 1200px) {
+
+  .span9Pos{
+    margin-left: $gridColumnWidth1200 * 9 + $gridGutterWidth1200 * 8 + 50px;
+  }
+
+}
