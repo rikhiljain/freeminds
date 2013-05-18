@@ -1,13 +1,42 @@
 /*
- *= require font-awesome/font-awesome
- *= require rupee/rupee
- *= require bootstrap/bootstrap
- *= require bootstrap/responsive
- *= require jquery/jquery-ui-1.9.2.custom 
- *= require dataTables/jquery.dataTables.bootstrap
  *= require _override_responsive-767px-max
  *= require _override_responsive-768px-979px
  *= require _override_responsive-1200px-min
- *= require welcome 
  *= require_self
 */
+
+.navbar .nav > li{
+ 	a {
+	    border-top: 2px solid #161726;
+	    padding: 20px 15px;
+    }
+    a:fcous{
+    	border-top-color: #EFF4F7;
+    	color: #EFF4F7;
+    }
+    a:hover{
+    	border-top-color: #EFF4F7;
+    	color: #EFF4F7;
+    }
+}
+
+.navbar .container{
+	padding-top: 0px;
+}
+
+.container{
+	padding-top: 80px;
+}
+
+.carousel-control{
+	background: none;
+	border: none;
+	border-radius: none;
+	opacity: 1;
+}
+
+.lead {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}

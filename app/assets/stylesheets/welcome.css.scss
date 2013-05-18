@@ -1,3 +1,19 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body.index{
+	background: url("http://m2m.eclipse.org/css/img/bg_index.gif") repeat-x scroll center top #DEE8EF;
+}
+
+#catchline {
+    color: #EFF4F7;
+    font-weight: 300;
+}
+
+#catchline h2 {
+    color: #EFF4F7;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+}
